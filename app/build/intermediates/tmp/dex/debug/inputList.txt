@@ -1,0 +1,2 @@
+E:\Android\Proyectos\Desarrollo Propio\ScreenMotoStudentSerial\app\build\intermediates\classes\debug
+E:\Android\Proyectos\Desarrollo Propio\ScreenMotoStudentSerial\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-be220b38eb335326b6406b05fa5b60644c539549.jar
