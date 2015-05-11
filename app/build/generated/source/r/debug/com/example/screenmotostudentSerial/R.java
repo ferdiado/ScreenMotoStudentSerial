@@ -18,22 +18,32 @@ public final class R {
         public static final int ic_action_airplane_mode_off=0x7f020000;
         public static final int ic_action_network_cell=0x7f020001;
         public static final int ic_launcher=0x7f020002;
-        public static final int quadre_de_velocitat=0x7f020003;
+        public static final int moto=0x7f020003;
+        public static final int quadre_de_velocitat=0x7f020004;
     }
     public static final class id {
         public static final int RXusb=0x7f090009;
-        public static final int action_settings=0x7f090010;
+        public static final int action_settings=0x7f090019;
         public static final int button1=0x7f09000a;
-        public static final int consoleText=0x7f09000f;
-        public static final int demoScroller=0x7f09000e;
-        public static final int demoTitle=0x7f09000c;
+        public static final int conectarUSB=0x7f09000e;
+        public static final int consoleText=0x7f090018;
+        public static final int contenedorTextoGPS=0x7f090014;
+        public static final int contenedorTextoUSB=0x7f090010;
+        public static final int demoScroller=0x7f090017;
+        public static final int demoTitle=0x7f090015;
+        public static final int desconectarUSB=0x7f09000f;
+        public static final int detieneGPS=0x7f090013;
         public static final int editText=0x7f090003;
+        public static final int grabaGPS=0x7f090012;
         public static final int imageView=0x7f090007;
         public static final int imageView2=0x7f090004;
         public static final int insertarRpm=0x7f090002;
         public static final int layout=0x7f090000;
+        public static final int linearInicio=0x7f09000c;
+        public static final int linearInicioGPS=0x7f090011;
+        public static final int linearInicioUSB=0x7f09000d;
         public static final int rmpActual=0x7f090001;
-        public static final int separator=0x7f09000d;
+        public static final int separator=0x7f090016;
         public static final int temperatura=0x7f090005;
         public static final int textView1=0x7f09000b;
         public static final int toggleButton=0x7f090008;
@@ -41,15 +51,23 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int serial_console=0x7f030001;
+        public static final int inicio=0x7f030001;
+        public static final int serial_console=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f080000;
+        public static final int menu_inicio=0x7f080001;
     }
     public static final class string {
         public static final int action_settings=0x7f060000;
         public static final int app_name=0x7f060001;
-        public static final int hello_world=0x7f060002;
+        public static final int conectarUSB_text=0x7f060002;
+        public static final int contenedorTexto_text=0x7f060003;
+        public static final int desconectarUSB_text=0x7f060004;
+        public static final int grabaGPS_text=0x7f060005;
+        public static final int hello_world=0x7f060006;
+        public static final int paraGPS_text=0x7f060007;
+        public static final int title_activity_inicio=0x7f060008;
     }
     public static final class style {
         /** 

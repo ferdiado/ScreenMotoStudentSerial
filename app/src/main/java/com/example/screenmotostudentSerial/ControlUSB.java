@@ -50,10 +50,7 @@ public ControlUSB( UsbSerialDriver sDriver){
 	this.sDriver=sDriver;
 	
 }
-		
 
-
- 
 	    private void stopIoManager() {
 	        if (mSerialIoManager != null) {
 	            Log.i(TAG, "Stopping io manager ..");

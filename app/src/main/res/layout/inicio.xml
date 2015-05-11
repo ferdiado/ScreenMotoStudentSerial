@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.Florida.MotoStudent.InicioActivity"
+    android:id="@+id/linearInicio"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearInicioUSB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/conectarUSB_text"
+            android:id="@+id/conectarUSB"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desconectarUSB_text"
+            android:id="@+id/desconectarUSB"
+            android:layout_gravity="center" />
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:minHeight="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:text="@string/contenedorTexto_text"
+        android:id="@+id/contenedorTextoUSB" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:minHeight="10dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearInicioGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/grabaGPS_text"
+            android:id="@+id/grabaGPS"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paraGPS_text"
+            android:id="@+id/detieneGPS"
+            android:layout_gravity="center" />
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:minHeight="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center"
+        android:text="@string/contenedorTexto_text"
+        android:id="@+id/contenedorTextoGPS" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:minHeight="10dp" />
+</LinearLayout>

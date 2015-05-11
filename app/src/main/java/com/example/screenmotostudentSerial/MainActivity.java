@@ -153,8 +153,7 @@ public class MainActivity extends Activity {
 
     //Called every time when toggle button clicked
     @SuppressWarnings("deprecation")
-    public void changeAirPlaneStatus(View v)
-    {
+    public void changeAirPlaneStatus(View v){
         if(tb.isChecked())//means this is the request to turn ON AIRPLANE mode
         {
             Settings.System.putInt(getContentResolver(),Settings.System.AIRPLANE_MODE_ON, 1);//Turning ON Airplane mode.
@@ -315,6 +314,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
+        Log.i("onResume","Salta el onResumeUSB Serial");
          
         refreshDeviceList();
         // mEntries = new ArrayList<DeviceEntry>();
@@ -350,7 +350,7 @@ public class MainActivity extends Activity {
         
     }
    private void  refreshDeviceList() {
-     
+       Log.i("refreshDeviceList","Salta al refresco de dispositivo");
 
        new AsyncTask<Void, Void, List<DeviceEntry>>() {
            @Override
